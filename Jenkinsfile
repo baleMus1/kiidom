@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    credentialsId: 'baleMus1',
+                    credentialsId: '02547b78-69fd-423a-9aac-698408798521',
                     url: 'https://github.com/baleMus1/kiidom.git'
             }
         }
